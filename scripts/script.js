@@ -82,7 +82,6 @@ async function start(){
     //   tf.io.browserFiles([modelJson, modelWeights]));
     //console.log(model.toString());
 
-
     model.compile(config);
 }
 async function getDataBytesView(imageData){
